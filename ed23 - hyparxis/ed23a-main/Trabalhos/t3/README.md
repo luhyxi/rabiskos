@@ -33,7 +33,6 @@ Na edição, dá para usar ctrl-o para abrir outro arquivo, ctrl-w para gravar, 
 
 -> Uso da biblioteca curses:
 
-    "Encontra as localidades dentro do programa"
 - [] Citar LCO
 
 -> Estudar ADT (TAD em PT)
