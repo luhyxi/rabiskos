@@ -25,20 +25,20 @@ Na edição, dá para usar ctrl-o para abrir outro arquivo, ctrl-w para gravar, 
 
 
 
-#### Notas/Objetivos da Luaninha uwu :3
+# Notas/Objetivos da Luaninha uwu :3
 -> Implementar Lista e String!!!!!!!!!!!!!
 
-- [] lista.c - Implementação Lista Duplamente Encadeada com Alocação Individual de Nós [ALTA PRIORIDADE]
-- [] str.c - Implemenação UTF-8
+- [ ] lista.c - Implementação Lista Duplamente Encadeada com Alocação Individual de Nós [ALTA PRIORIDADE]
+- [ ] str.c - Implemenação UTF-8
 
 -> Uso da biblioteca curses:
 
-- [] Citar LCO
+- [ ] Citar LCO
 
 -> Estudar ADT (TAD em PT)
 
-- [] Função HASH
-- [] Estrutura de Dados e Seus Algortitmos - Livro
-- [] Estrutura de Dados - Livro
+- [ ] Função HASH
+- [ ] Estrutura de Dados e Seus Algortitmos - Livro
+- [ ] Estrutura de Dados - Livro
 
 # PARA DIA 04/05!!!!!!!!!!!!!!!
