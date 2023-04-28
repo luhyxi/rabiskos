@@ -1,5 +1,4 @@
 #include "str.h"
-#include "chu.h"
 #include <string.h>
 #include <stdlib.h>
 
@@ -72,7 +71,7 @@ void str_destroi(Str s)
 int str_tam(Str s)
 {
   if (s == NULL) return 0;
-  return strlen(s->bytes);
+  return sizeof(s->bytes);
 
 }
 
