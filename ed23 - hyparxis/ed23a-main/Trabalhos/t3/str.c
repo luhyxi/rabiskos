@@ -74,7 +74,7 @@ int str_tam(Str s)
   if (s == NULL) return 0;
   int char_count = 0;
   for (int i = 0; s->bytes[i] != '\0'; i++) {
-    if ((s->bytes[i] & 0xC0) != 0x80) { // check for first byte of multi-byte character
+    if ((s->bytes[i] & 0xC0) != 0x80) { //checagem bytes
       char_count++;
     }
   }
@@ -87,15 +87,20 @@ int str_numbytes(Str s)
   return strlen(s->bytes);
 }
 
-chu str_char(Str s, int i)
+char str_char(Str s, int i)
 {
   int t = str_tam(s);
   if (i < 0) {
     i += t;
   }
   if (i >= t || i < 0) return -1;
-  return s->bytes[i];
+
+  char *palavra = s -> bytes;
+  int n = i;
+  char *result = utf8_nesimo_chu(palavra, n);
+  return *result; // retorna o caractere encontrado, não o ponteiro
 }
+
 
 // p é uma posição em s, podendo ser positiva (medida a partir do início)
 //   ou negativa (medida a partir do final)
@@ -214,3 +219,9 @@ void str_grava(Str s, FILE *arq)
 
 
 #include <assert.h>
+
+int main()
+{
+  Str s = str_cria("ação");
+  printf("%d %d \n", str_tam(s), str_numbytes(s)), str_char(s,2);
+};

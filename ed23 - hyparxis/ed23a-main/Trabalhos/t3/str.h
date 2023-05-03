@@ -53,7 +53,7 @@ int str_numbytes(Str s);
 // retorna o i-ésimo caractere unicode de 's' ou -1 se 'i' além dos limites
 // valores negativos de 'i' referem-se ao final de 's' (-1 é o último caractere,
 //   -2 o penúltimo, etc)
-chu str_char(Str s, int i);
+char str_char(Str s, int i);
 
 // retorna uma substring de 's', com os 'n' caracteres a partir da posição 'p'
 // a string retornada pode ter menos de 'n' caracteres se 's' não tiver

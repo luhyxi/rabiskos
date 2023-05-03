@@ -18,11 +18,11 @@
 
 /*Nova Implementação*/
 typedef struct lista *Lista;
-typedef struct nodo *Nodo;
+typedef struct _nodo *Nodo;
 typedef char* Str;
 
-struct Nodo {
-  char*  info; // a informação que é mantida por este nó
+struct _nodo {
+  Str  info; // a informação que é mantida por este nó
   Nodo *prox;  // ponteiro para o nó seguinte
   Nodo *ant;   // ponteiro para o nó anterior
  };
@@ -52,7 +52,7 @@ Lista lista_cria(void)
 //
 // CRIA A PORRA DO Nodo
 //
-Nodo cria_Nodo(Str info, Nodo prox) {
+Nodo *cria_Nodo(Str info, Nodo prox) {
     Nodo no = malloc(sizeof(Nodo));
     if (no != NULL) {
         no->info = info;
@@ -77,10 +77,10 @@ int lista_nelem(Lista self)
   return self->num;
 }
 
-static Nodo  *lista_elem_pos(Lista self, int pos)
+static Nodo  *lista_nodo_pos(Lista self, int pos)
 {
   if (self == NULL) return NULL;
-  Nodo *no = self -> prim;
+  Nodo no = self -> prim;
   
   int p = 0;
   while (no != NULL && p < pos) {
@@ -93,28 +93,39 @@ static Nodo  *lista_elem_pos(Lista self, int pos)
 void lista_insere_pos(Lista self, Nodo no, int pos)
 {
   if (self == NULL) return NULL;
-  Nodo *no = self -> prim;
+  Nodo no = self -> prim;
 
-  if (pos == self -> prim) lista_insere_inicio(pos, no), return;
+  if (pos == self -> prim) {
+    lista_insere_inicio(no);
+    return;
+    }
+  
+  Nodo anterior = no -> ant;
+  if (anterior == NULL) return;
 
-  if (pos < 0 || pos > self->num) return;
-  if (self->num >= 50) return;
-  for (int i = self->num; i > pos; i--) {
-    self->dados[i] = self->dados[i-1];
-  }
-  self->dados[pos] = dado;
-  self->num++;
+  Nodo *seguinte = anterior -> prox;
+
+  Nodo *novo = cria_nodo(self, seguinte);
+  anterior->prox = novo;
 }
 
 void lista_insere_inicio(Lista self, Nodo no)
 {
-  lista_insere_pos(self, dado, 0);
+  lista_insere_pos(self, no, 0);
 }
 
-void lista_insere_fim(Lista self, void *dado)
+void lista_insere_fim(Lista self, Nodo no)
 {
-  lista_insere_pos(self, dado, -1);
+  lista_insere_pos(self, no, -1);
 }
+
+
+
+///  
+///  FAZER!!!!
+///  Somente a Remoção, seguir a mesma lógica da inserção!!!!!
+/// 
+
 
 void *lista_remove_pos(Lista self, int pos)
 {

@@ -8,7 +8,6 @@
 // 
 
 typedef struct _lista *Lista;
-
 typedef struct _nodo *Nodo;
 
 
@@ -34,13 +33,13 @@ static Nodo  *lista_elem_pos(Lista self, int pos);
 // os dados que estavam nessa posição e adiante avançam uma posição
 // 'pos' pode ser negativa (-1 corresponde a inserção no final)
 // não faz nada se posição não for válida
-void lista_insere_pos(Lista self, nodo no, int pos);
+void lista_insere_pos(Lista self, Nodo no, int pos);
 
 // insere dado no início da lista
-void lista_insere_inicio(Lista self void *dado);
+void lista_insere_inicio(Lista self, Nodo no);
 
 // insere dado no final da lista
-void lista_insere_fim(Lista self, void *dado);
+void lista_insere_fim(Lista self, Nodo no);
 
 // remove o dado na posição 'pos' da lista, e retorna o dado removido
 // 'pos' é como em 'lista_elem_pos'
