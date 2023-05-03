@@ -8,6 +8,7 @@
 
 
 int main(int argc, char *argv[argc])
+
 {
   // inicializa a tela e cria um controlador
   tela_cria();

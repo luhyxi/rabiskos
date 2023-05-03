@@ -1,0 +1,5 @@
+{
+    "workbench.colorCustomizations": {
+    "python.analysis.disabled": ["missing-import"]
+    }
+}

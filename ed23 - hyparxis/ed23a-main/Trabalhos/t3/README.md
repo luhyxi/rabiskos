@@ -30,7 +30,7 @@ Na edição, dá para usar ctrl-o para abrir outro arquivo, ctrl-w para gravar, 
 
 - [ ] lista.c - Implementação Lista Duplamente Encadeada com Alocação Individual de Nós [ALTA PRIORIDADE]
 - [ ] str.c - Implemenação UTF-8
-
+- [X] IMPLEMENTADO O TAM
 -> Uso da biblioteca curses:
 
 - [ ] Citar LCO

@@ -18,22 +18,22 @@
 
 /*Nova Implementação*/
 typedef struct lista *Lista;
-typedef struct nodo *Nodo;
-typedef char* Str;
+typedef struct nodo *nodo;
+typedef struct _str *Str;
 
-struct Nodo {
-  char*  info; // a informação que é mantida por este nó
-  Nodo *prox;  // ponteiro para o nó seguinte
-  Nodo *ant;   // ponteiro para o nó anterior
- };
 
 struct lista {
   int num;    // número de elementos na lista
-  Nodo *prim; // nó que contém o primeiro elemento da lista
-  Nodo *ult;  // nó que contém o último elemento da lista
+  nodo *prim; // nó que contém o primeiro elemento da lista
+  nodo *ult;  // nó que contém o último elemento da lista
   };
 
 
+struct nodo {
+  Str info; // a informação que é mantida por este nó
+  nodo *prox;  // ponteiro para o nó seguinte
+  nodo *ant;   // ponteiro para o nó anterior
+ };
 
 
 //
@@ -50,24 +50,26 @@ Lista lista_cria(void)
 
 
 //
-// CRIA A PORRA DO Nodo
+// CRIA A PORRA DO NODO
 //
-Nodo cria_Nodo(Str info, Nodo prox) {
-    Nodo no = malloc(sizeof(Nodo));
+static nodo *cria_nodo(Str info, nodo *prox)
+  {
+    nodo *no = malloc(sizeof(nodo));
     if (no != NULL) {
-        no->info = info;
-        no->prox = prox;
+    no->info = info;
+    no->prox = prox;
     }
-    return no;
-}
+     return no;
+   }
+
 
 void lista_destroi(Lista self)
 {
   if (self ->prim != NULL)
   {
-    Nodo* ult_zero = self -> ult;
+    nodo* ult_zero = self -> ult;
     free (self);
-    ult_zero;
+    ult_zero
   }
 }
 
@@ -77,10 +79,10 @@ int lista_nelem(Lista self)
   return self->num;
 }
 
-static Nodo  *lista_elem_pos(Lista self, int pos)
+static nodo  *lista_elem_pos(Lista self, int pos)
 {
   if (self == NULL) return NULL;
-  Nodo *no = self -> prim;
+  nodo *no = self -> prim;
   
   int p = 0;
   while (no != NULL && p < pos) {
@@ -90,10 +92,10 @@ static Nodo  *lista_elem_pos(Lista self, int pos)
   return no;
 }
 
-void lista_insere_pos(Lista self, Nodo no, int pos)
+void lista_insere_pos(Lista self, nodo no, int pos)
 {
   if (self == NULL) return NULL;
-  Nodo *no = self -> prim;
+  nodo *no = self -> prim;
 
   if (pos == self -> prim) lista_insere_inicio(pos, no), return;
 
@@ -106,7 +108,7 @@ void lista_insere_pos(Lista self, Nodo no, int pos)
   self->num++;
 }
 
-void lista_insere_inicio(Lista self, Nodo no)
+void lista_insere_inicio(Lista self, nodo no)
 {
   lista_insere_pos(self, dado, 0);
 }

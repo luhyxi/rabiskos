@@ -9,8 +9,14 @@
 
 typedef struct _lista *Lista;
 
+typedef struct _nodo *Nodo;
+
+
 // cria uma lista vazia
 Lista lista_cria(void);
+
+// cria nodo vazio
+
 
 // libera a memória ocupada pela lista
 void lista_destroi(Lista self);
@@ -22,16 +28,16 @@ int lista_nelem(Lista self);
 // o primeiro elemento está na posição 0
 // posições negativas são relativas ao final da lista (-1 é o último)
 // retorna NULL se não houver dado na posição
-void *lista_elem_pos(Lista self, int pos);
+static Nodo  *lista_elem_pos(Lista self, int pos);
 
 // insere um novo dado na lista, na posição 'pos'
 // os dados que estavam nessa posição e adiante avançam uma posição
 // 'pos' pode ser negativa (-1 corresponde a inserção no final)
 // não faz nada se posição não for válida
-void lista_insere_pos(Lista self, void *dado, int pos);
+void lista_insere_pos(Lista self, nodo no, int pos);
 
 // insere dado no início da lista
-void lista_insere_inicio(Lista self, void *dado);
+void lista_insere_inicio(Lista self void *dado);
 
 // insere dado no final da lista
 void lista_insere_fim(Lista self, void *dado);

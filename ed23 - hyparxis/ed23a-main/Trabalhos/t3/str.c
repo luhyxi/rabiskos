@@ -1,4 +1,5 @@
 #include "str.h"
+#include "chu.h"
 #include <string.h>
 #include <stdlib.h>
 
@@ -71,8 +72,13 @@ void str_destroi(Str s)
 int str_tam(Str s)
 {
   if (s == NULL) return 0;
-  return sizeof(s->bytes);
-
+  int char_count = 0;
+  for (int i = 0; s->bytes[i] != '\0'; i++) {
+    if ((s->bytes[i] & 0xC0) != 0x80) { // check for first byte of multi-byte character
+      char_count++;
+    }
+  }
+  return char_count;
 }
 
 int str_numbytes(Str s)
@@ -208,9 +214,3 @@ void str_grava(Str s, FILE *arq)
 
 
 #include <assert.h>
-
-int main()
-{
-  Str s = str_cria("ação");
-  printf("%d %d", str_tam(s), str_numbytes(s));
-};
