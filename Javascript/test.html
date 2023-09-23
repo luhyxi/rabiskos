@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Título de Página</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="exibe_resultado">Resultado Mult.</div>
+    <script type="text/javascript">
+        var is_happening = true;
+        while (is_happening) {
+            console.log("Insert numbers");
+            var a = prompt("Please enter num a");
+            var b = prompt("Please enter num b");
+            console.log("the result is:", a / b);
+            is_happening = confirm("Do you want to continue?");
+        }
+    </script>
+</body>
+</html>
+
