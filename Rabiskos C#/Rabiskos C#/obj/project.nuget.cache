@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "XV5WjTWMH17Hfo21MSkfP7q70BAtbi7mMKMshF0gOjNw0y5pR7wThy16JURqig9z2bwDBnCkAH6ABqmrvo0mXg==",
+  "dgSpecHash": "UnMiWl95Gknp2+J0BaAIA/QwOoe3yS1DIBOaZADz4/2OptSOeC5BPmKA6CrcbVtjx5RVYuU7fKZjeUP0z8ZiVQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\HomePC\\Documents\\Horny Girlstuff\\rabiskos\\Rabiskos C#\\Rabiskos C#\\Rabiskos C#.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/luhyxi/Codeee/Rabiskos/Rabiskos C#/Rabiskos C#/Rabiskos C#.csproj",
+  "expectedPackageFiles": [
+    "/home/luhyxi/.nuget/packages/microsoft.netcore.app.ref/6.0.22/microsoft.netcore.app.ref.6.0.22.nupkg.sha512",
+    "/home/luhyxi/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.22/microsoft.aspnetcore.app.ref.6.0.22.nupkg.sha512",
+    "/home/luhyxi/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.22/microsoft.netcore.app.host.linux-x64.6.0.22.nupkg.sha512"
+  ],
   "logs": []
 }

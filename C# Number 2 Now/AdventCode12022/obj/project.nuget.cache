@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "DGS93c87VMPrHSCnUW8OV2CPC2vE4bmd5TA4TrkUsXX03GaSu2r20o3WuG9OxmK0fdwRntZq8lwnhrYO4okbVg==",
+  "success": true,
+  "projectFilePath": "/home/luhyxi/Codeee/Rabiskos/C# Number 2 Now/AdventCode12022/AdventCode12022.csproj",
+  "expectedPackageFiles": [
+    "/home/luhyxi/.nuget/packages/csvhelper/30.0.1/csvhelper.30.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
