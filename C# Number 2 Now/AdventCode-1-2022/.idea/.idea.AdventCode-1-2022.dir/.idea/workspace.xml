@@ -8,45 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76101b44-07b9-4079-b375-d93007ae5d54" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.AdventCode-1-2022.dir/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.AdventCode-1-2022.dir/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.AdventCode-1-2022.dir/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdventCode12022/AdventCode12022.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdventCode12022/adventofcode.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdventCode12022/bin/Debug/net7.0/AdventCode12022" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdventCode12022/bin/Debug/net7.0/AdventCode12022.deps.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdventCode12022/bin/Debug/net7.0/AdventCode12022.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdventCode12022/bin/Debug/net7.0/AdventCode12022.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdventCode12022/bin/Debug/net7.0/AdventCode12022.runtimeconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdventCode12022/bin/Debug/net7.0/CsvHelper.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdventCode12022/obj/AdventCode12022.csproj.nuget.dgspec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdventCode12022/obj/AdventCode12022.csproj.nuget.g.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdventCode12022/obj/AdventCode12022.csproj.nuget.g.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdventCode12022/obj/Debug/net7.0/AdventCode12022.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdventCode12022/obj/Debug/net7.0/AdventCode12022.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdventCode12022/obj/Debug/net7.0/AdventCode12022.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdventCode12022/obj/Debug/net7.0/AdventCode12022.GlobalUsings.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdventCode12022/obj/Debug/net7.0/AdventCode12022.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdventCode12022/obj/Debug/net7.0/AdventCode12022.csproj.AssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdventCode12022/obj/Debug/net7.0/AdventCode12022.csproj.CopyComplete" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdventCode12022/obj/Debug/net7.0/AdventCode12022.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdventCode12022/obj/Debug/net7.0/AdventCode12022.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdventCode12022/obj/Debug/net7.0/AdventCode12022.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdventCode12022/obj/Debug/net7.0/AdventCode12022.genruntimeconfig.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdventCode12022/obj/Debug/net7.0/AdventCode12022.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdventCode12022/obj/Debug/net7.0/ref/AdventCode12022.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdventCode12022/obj/Debug/net7.0/refint/AdventCode12022.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdventCode12022/obj/project.packagespec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdventCode12022/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdventCode12022/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Rabiskos C#/Rabiskos C#/obj/Debug/net6.0/Rabiskos C#.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../../Rabiskos C#/Rabiskos C#/obj/Debug/net6.0/Rabiskos C#.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Rabiskos C#/Rabiskos C#/obj/Debug/net6.0/Rabiskos C#.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../Rabiskos C#/Rabiskos C#/obj/Debug/net6.0/Rabiskos C#.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Rabiskos C#/Rabiskos C#/obj/Debug/net6.0/Rabiskos C#.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../Rabiskos C#/Rabiskos C#/obj/Debug/net6.0/Rabiskos C#.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Rabiskos C#/Rabiskos C#/obj/Rabiskos C#.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Rabiskos C#/Rabiskos C#/obj/Rabiskos C#.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Rabiskos C#/Rabiskos C#/obj/Rabiskos C#.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../../Rabiskos C#/Rabiskos C#/obj/Rabiskos C#.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Rabiskos C#/Rabiskos C#/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Rabiskos C#/Rabiskos C#/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Rabiskos C#/Rabiskos C#/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../Rabiskos C#/Rabiskos C#/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AdventCode-1-2022.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AdventCode-1-2022.dir/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +72,7 @@
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
-      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_KIND" value="Unloaded" />
       <option name="PROJECT_TFM" value="" />
       <method v="2">
         <option name="Build" />
@@ -127,6 +89,7 @@
       <updated>1696080448321</updated>
       <workItem from="1696080449027" duration="2727000" />
       <workItem from="1696115045882" duration="353000" />
+      <workItem from="1696188037513" duration="265000" />
     </task>
     <servers />
   </component>
